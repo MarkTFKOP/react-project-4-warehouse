@@ -7,32 +7,32 @@ export default function WarehouseFilters() {
       <div className="warehouse-filters-headers">Filters</div>
       <div className="warehouse-filters-select">
         <div className="warehouse-filters-checkboxes">
-          <label class="warehouse-filters-container">
+          <label className="warehouse-filters-container">
             One
             {/* <input type="checkbox" checked="checked" /> */}
             <input type="checkbox" />
-            <span class="warehouse-filters-container-checkmark"></span>
+            <span className="warehouse-filters-container-checkmark"></span>
           </label>
         </div>
         <div className="warehouse-filters-checkboxes">
-          <label class="warehouse-filters-container">
+          <label className="warehouse-filters-container">
             Two
             <input type="checkbox" />
-            <span class="warehouse-filters-container-checkmark"></span>
+            <span className="warehouse-filters-container-checkmark"></span>
           </label>
         </div>
         <div className="warehouse-filters-checkboxes">
-          <label class="warehouse-filters-container">
+          <label className="warehouse-filters-container">
             Three
             <input type="checkbox" />
-            <span class="warehouse-filters-container-checkmark"></span>
+            <span className="warehouse-filters-container-checkmark"></span>
           </label>
         </div>
         <div className="warehouse-filters-checkboxes">
-          <label class="warehouse-filters-container">
+          <label className="warehouse-filters-container">
             Four
             <input type="checkbox" />
-            <span class="warehouse-filters-container-checkmark"></span>
+            <span className="warehouse-filters-container-checkmark"></span>
           </label>
         </div>
       </div>

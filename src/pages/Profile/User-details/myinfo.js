@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "../CSS/myinfo.css";
 export default function Myinfo() {
   const [isdisabled, setIsDisabled] = useState(true);
+  function toggleInputs() {
+    return setIsDisabled(!isdisabled);
+  }
   return (
     <div className="myinfo-main">
       {/* <div className="myinfo-title"></div> */}
@@ -13,7 +16,7 @@ export default function Myinfo() {
         >
           <label>Name</label>
           <input type="text" disabled={isdisabled}></input>
-          <label className="label-edit-toggle">
+          <label className="label-edit-toggle" onClick={() => toggleInputs()}>
             <p>🖊</p>
           </label>
         </div>
@@ -23,7 +26,7 @@ export default function Myinfo() {
         >
           <label>Mobile</label>
           <input type="text" disabled={isdisabled}></input>
-          <label className="label-edit-toggle">
+          <label className="label-edit-toggle" onClick={() => toggleInputs()}>
             <p>🖊</p>
           </label>
         </div>

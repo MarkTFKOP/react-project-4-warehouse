@@ -8,7 +8,8 @@ export default function navbar(props) {
     console.log("works");
     props.openLogin();
   }
-  return <MainNav openLogin={invokeProps()} />;
+  // return <MainNav openLogin={invokeProps()} />;
+  return <MainNav />;
 }
 
 function MainNav(props) {

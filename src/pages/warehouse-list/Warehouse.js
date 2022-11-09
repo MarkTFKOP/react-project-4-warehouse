@@ -18,11 +18,12 @@ export default function Warehouse() {
         <WarehouseFilters />
         <div className="warehouse-body">
           <div className="warehouse-grid-container">
-            {dataarray.map((_) => {
+            {dataarray.map((_, index) => {
               return (
                 <div
                   className="warehouse-grid-items"
                   onClick={() => NavigateTo("/warehouseinfo")}
+                  key={index}
                 >
                   <img
                     className="warehouse-grid-items-image"

@@ -12,3 +12,7 @@
 .label-edit-toggle:hover {
   filter: brightness(0.8);
 }
+input:disabled,
+input[disabled] {
+  cursor: not-allowed;
+}
