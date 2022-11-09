@@ -1,0 +1,79 @@
+.warehouse-details-main {
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  display: flex;
+  margin-left: 1em;
+}
+.warehouse-details-media {
+  flex: 1;
+  display: flex;
+}
+.warehouse-details-content {
+  flex: 1;
+}
+.warehouse-details-media-multiple {
+  position: relative;
+  flex: 1.5;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 5em;
+  gap: 1em;
+  height: 100%;
+  width: 100%;
+}
+.warehouse-details-media-main {
+  flex: 3;
+  height: 80%;
+  background-color: aliceblue;
+  border-radius: 0.2em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.warehouse-details-media-multiple-sub {
+  height: 100%;
+  width: 50%;
+  border-radius: 0.08em;
+  background-color: azure;
+}
+.warehouse-details-media-multiple-sub:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+.warehouse-details-media-video {
+  height: 100%;
+  width: 50%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.08em;
+}
+.warehouse-details-media-video:hover {
+  filter: brightness(1.2);
+  transition: filter 0.1s;
+}
+.warehouse-details-media-video:hover .play-button {
+  opacity: 1;
+  width: 3em;
+  background-color: azure;
+  border-radius: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+.warehouse-details-media-main-zoom {
+  background-color: rgb(158, 150, 150);
+  color: rgb(18, 17, 17);
+  font-size: 0.8em;
+  padding: 0.4em;
+  border: 0.1em black solid;
+  border-radius: 4em;
+  margin: 0 0.3em 0.3em 0;
+}
+.warehouse-details-media-main:hover .warehouse-details-media-main-zoom {
+  filter: brightness(1.2);
+}

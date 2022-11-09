@@ -1,0 +1,21 @@
+What is my app
+
+--------------------  Warehouse  -------------------------
+
+What it is - 
+    To rent a warehouse for a set time, to store home(furnitures, appliances)
+    To also recommend how much space would be required for my home (space recommender)
+
+Features
+
+* Browse warehouses across Mumbai, 
+* check individual warehouses
+* Profile
+    * My details
+    * my home items (furniture, appliances) to get apprx Warehouse space reaquired
+* Book said warehouse
+* 
+
+Tasks
+
+1) Create react with routers

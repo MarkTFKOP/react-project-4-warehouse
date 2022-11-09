@@ -1,0 +1,14 @@
+.label-edit-toggle {
+  cursor: pointer;
+  background-color: rgb(220, 226, 233);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1em;
+}
+.label-edit-toggle:hover {
+  filter: brightness(0.8);
+}

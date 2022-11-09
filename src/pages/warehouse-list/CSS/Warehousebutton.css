@@ -1,0 +1,32 @@
+.warehouse-grid-items-info-buttons {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1em;
+}
+.warehouse-grid-items-info-buttons-1:hover,
+.warehouse-grid-items-info-buttons-2:hover {
+  filter: brightness(1.1);
+}
+.warehouse-grid-items-info-buttons-1 {
+  height: 3em;
+  width: 7em;
+  background-color: rgb(52, 52, 190);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3em;
+}
+.warehouse-grid-items-info-buttons-2 {
+  height: 3em;
+  width: 7em;
+  background-color: rgb(33, 191, 109);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

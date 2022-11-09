@@ -1,0 +1,31 @@
+.profile-main {
+  min-height: 73vh;
+  /* background-color: rgba(198, 18, 18, 1); */
+}
+.profile-title {
+  border-radius: 1rem;
+  margin: 1em 1em 1em 1em;
+  height: 10vh;
+  background-color: rgba(214, 48, 48, 0.9);
+}
+.profile-body {
+  border-radius: 0.1rem;
+  margin: 1em;
+  min-height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  background-color: rgba(214, 48, 48, 0.9);
+}
+.profile-side-left,
+.profile-side-right {
+  margin: 1em;
+  background-color: aliceblue;
+  border-radius: 0.1rem;
+  cursor: pointer;
+}
+.profile-side-left {
+  height: 40vh;
+}
+.profile-side-right {
+  height: 80vh;
+}

@@ -1,0 +1,14 @@
+.home-carousel-main {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cccccc;
+}
+.home-carousel-main:hover {
+  filter: brightness(80%);
+}
+.home-carousel-main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
