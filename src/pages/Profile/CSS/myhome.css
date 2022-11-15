@@ -1,0 +1,48 @@
+.myhome-main {
+  min-height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  padding-left: 1em;
+}
+
+#title {
+  font-size: 1.7rem;
+}
+
+#title,
+#desc {
+  color: rgb(103, 90, 90);
+  font-family: sans-serif;
+}
+
+.particletext {
+  position: relative;
+  color: transparent;
+  font-weight: 800;
+  background-color: #1e80db !important;
+  background-position: 50% 50%;
+  background: url(https://i.imgur.com/OLQtRxV.png) repeat-y;
+  -webkit-background-clip: text;
+  animation: slide 2s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 60% 100%;
+  }
+}
+
+.myhome-cards {
+  display: flex;
+  align-items: center;
+  min-height: 11em;
+  margin: 1em;
+  border-radius: 1em;
+  background-color: rgba(228, 228, 228, 0.9);
+}
