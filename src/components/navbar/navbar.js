@@ -4,12 +4,11 @@ import Logo from "../../assets/web-logo.JPG";
 import { useNavigate } from "react-router-dom";
 
 export default function navbar(props) {
-  function invokeProps() {
+  function invokeProps(truthValue) {
     console.log("works");
-    props.openLogin();
+    props.openLogin(truthValue);
   }
-  // return <MainNav openLogin={invokeProps()} />;
-  return <MainNav />;
+  return <MainNav openLogin={invokeProps} />;
 }
 
 function MainNav(props) {
@@ -17,9 +16,9 @@ function MainNav(props) {
   function NavigateTo(urlData) {
     return navigate(urlData);
   }
-  function openLoginModal() {
-    console.log("works");
-    props.openLogin();
+  function openLoginModal(truthValue) {
+    console.log("works", props);
+    props.openLogin(truthValue);
   }
   return (
     <nav className="navbar">
@@ -33,7 +32,9 @@ function MainNav(props) {
         <NavItem icon="😊" text="browse" urlData="warehouselist" />
         <NavItem icon="😊" text="about-us" urlData="about-us" />
         <NavItem icon="😊" text="contact" urlData="contact-us" />
-        <button className="login-button">Login</button>
+        <button className="login-button" onClick={() => openLoginModal(true)}>
+          Login
+        </button>
       </ul>
     </nav>
   );

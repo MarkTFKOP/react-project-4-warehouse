@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./popup.css";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 
 export default function Example(props) {
+  const [showPopup] = props;
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  useEffect(() => {
-    if (show) setShow(true);
-  }, [show]);
+
   const styleObject = {
     "z-index": "100",
   };
