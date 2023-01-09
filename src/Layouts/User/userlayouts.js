@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import "../CSS/userlayout.css";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
-import LoginPopup from "../../components/popup/popup-new";
+import LoginPopup from "../../components/popup/popup";
 
 export default function Userlayouts() {
   const [popupEnable, setPopupEnable] = useState(true);

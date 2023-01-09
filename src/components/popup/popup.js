@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./popup.css";
 
 export default function Example(props) {
-  const [showPopup] = props;
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -16,7 +15,17 @@ export default function Example(props) {
       {show && (
         <div className="modal-main">
           <div className="modal-body">
-            <div className="modal-child"></div>
+            <div className="modal-child">
+              <p>
+                Name:<input></input>
+              </p>
+              <p>
+                Email:<input></input>
+              </p>
+              <p>
+                Phone:<input></input>
+              </p>
+            </div>
           </div>
         </div>
       )}

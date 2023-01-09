@@ -1,15 +1,21 @@
 .modal-main {
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  background-color: rgba(246, 43, 43, 0.7);
+  background-color: rgb(137, 137, 137);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 .modal-body {
   height: 30%;
   width: 30%;
   background-color: rgb(245, 237, 237);
+  opacity: 1;
+  border-radius: 0.5em;
 }
 
 .popup-parent-body {
